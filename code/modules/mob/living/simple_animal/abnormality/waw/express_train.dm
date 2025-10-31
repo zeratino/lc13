@@ -96,6 +96,8 @@
 	return chance
 
 /mob/living/simple_animal/hostile/abnormality/express_train/PostWorkEffect(mob/living/carbon/human/user, work_type, pe)
+	if(datum_reference.qliphoth_meter == 0)
+		user.client?.give_award(/datum/award/achievement/abno/train_time, user)
 	datum_reference.qliphoth_change(4)
 	meltdown_timer = world.time + meltdown_tick
 	lightscount = 0
@@ -172,7 +174,7 @@
 
 /mob/living/simple_animal/hostile/abnormality/express_train/proc/CheckTrainSurvival(mob/living/carbon/human/H)
 	if(H && H.stat != DEAD)
-		H.client?.give_award(/datum/award/achievement/lc13/train_survivor, H)
+		H.client?.give_award(/datum/award/achievement/abno/train_survivor, H)
 
 /mob/living/simple_animal/hostile/abnormality/express_train/proc/damageTiles()
 	for(var/obj/effect/expresstrain/seg in segments)
