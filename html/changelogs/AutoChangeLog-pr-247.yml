@@ -1,4 +1,0 @@
-author: "Destrok171"
-delete-after: True
-changes:
-  - code_imp: "Changed logic in weapon ego datum New() so it actually runs the ranged weapons code block now"
