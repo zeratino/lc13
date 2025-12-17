@@ -1,0 +1,4 @@
+author: "Destrok171"
+delete-after: True
+changes:
+  - bugfix: "Black Forest Birds will now correctly patrol to the portal when beginning the Apocalypse event"
