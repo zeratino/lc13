@@ -1,0 +1,5 @@
+author: "Destrok171"
+delete-after: True
+changes:
+  - bugfix: "Matriarch will no longer spawn Sweepers inside walls"
+  - bugfix: "Commander Adelheide will no longer hit targets more than once when there are multiple targets on the same tile."
