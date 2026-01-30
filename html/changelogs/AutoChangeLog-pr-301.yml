@@ -1,0 +1,5 @@
+author: "Destrok171"
+delete-after: True
+changes:
+  - balance: "Indigo Noon/Dusk scaling given a max cap and rebalanced to be less harsh"
+  - balance: "Chunky Sweeper Last Stand Persistence Stacks 3 -> 2"
