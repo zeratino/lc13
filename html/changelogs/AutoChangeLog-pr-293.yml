@@ -1,0 +1,5 @@
+author: "Kitsunemitsu"
+delete-after: True
+changes:
+  - code_imp: "Rounds reload is an actual mechanic"
+  - balance: "More Guns have a round reload."
