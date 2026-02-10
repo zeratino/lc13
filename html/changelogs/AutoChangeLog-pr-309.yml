@@ -1,0 +1,5 @@
+author: "Croissant-Man"
+delete-after: True
+changes:
+  - rscadd: "Allow Big Bird Cake to be sliced"
+  - imageadd: "Animated icon for new Big Bird Cake Slice"
